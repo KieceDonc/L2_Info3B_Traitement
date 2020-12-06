@@ -7,3 +7,5 @@ I = double(I)
 I= I/255
 [Ietir] = etir_hist(I)
 Ieq=histeq(I)
+Iteri = Ietir*255
+bar(Ietir)

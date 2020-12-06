@@ -9,4 +9,5 @@ function histogramme(filepath)
   H = imhist(Ig)
   min(H)
   max(H)
+  bar(H)
 endfunction

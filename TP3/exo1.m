@@ -25,7 +25,7 @@ figure;imshow(I_Ky)
 
 I3 = sqrt(I_Kx.*I_Kx+I_Ky.*I_Ky)
 Iseuil = I3/max(I3(:))
-Iseuil = im2bw(Iseuil,0.12);
+Iseuil = im2bw(Iseuil,0.8);
 
 figure;imshow(I3)
 figure;imshow(Iseuil)
